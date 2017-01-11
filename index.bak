@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Due Amici</title>
+<meta name="description" content="Due Amici Menu">
+<meta name="author" content="Brian Blackwell">
+
+<link rel="stylesheet" href="css/style.css?v=1.0">
+
+<!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+              <![endif]-->
+</head>
+
+<body>
+<div id="wrapper">
+    <ul class="header">
+        <li id="logo">
+        <img id="logoImg" src="./img/banner.gif">
+        <h1>Brick Oven / Hand Tossed Pizza</h1>
+        </li>
+        <!--
+        <li class="headerFollow">
+        <h2>Follow US</h2>
+        <ul class="followButtons">
+            <li><img src="./img/fb.png"></li>
+            <li><img src="./img/twitter.png"></li>
+            <li><img src="./img/instagram.png"></li>
+        </ul>
+        </li>
+-->
+    </ul>
+    <ul class="headerMenu">
+        <li><a href="./index.html">About</a></li>
+        <li><a href="./menu.html">Menu</a></li>
+    </ul>
+
+
+    <ul class="main">
+        <li id="location" class="fiftyRight">
+
+        <div class="heading">
+            <span class="headingTitle">Location</span>
+            <div class="headingLine"></div>
+        </div>
+        <div class="padder">
+            <br />
+            <p class="white">
+                Due Amici
+                <br />
+                3100 Alafaya Trail Suite 1006
+                <br />
+                Orlando, FL 32765
+                <br />
+                <br />
+                Hours of Operation
+                <br />
+                11AM - 10PM Mon - Sun
+                <br />
+                Pickup or Delivery Everyday
+                <br />
+                <br />
+                Open Late After 12
+                <br />
+                Thu, Fri, Sat
+                <br />
+                <br />
+                Phone (407) 977-5515
+                <br />
+                Fax (407) 977-1772
+            </p>
+            <iframe
+                width="600"
+                height="450"
+                frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY
+                &q=Space+Needle,Seattle+WA" allowfullscreen>
+            </iframe>
+        </div>
+
+        </li>
+        <li id="missionStatement" class="fifty">
+        <div class='heading'>
+            <span class="headingTitle">About Due Amici</span>
+            <div class="headingLine"></div>
+        </div>
+        <div class="padder">
+            <br />
+            <p class="white">"We have a simple way to our pizzeria menu - Everything is made in house! 
+            Dough, bread, and sauces all made fresh daily. And use the highest quailty ingredients from the best Grande 
+            mozzerella to using fresh toppings. Without mentioning the thirty years experience of our chef from New York. Say no more!            We think you get the picture." </p>
+        </div>
+        </li>
+
+    </ul>
+    <ul class="footerMenu">
+        <li>
+        <ul class="footerGroup">
+            <li class="firstFooter"><a href="./index.html">About Us</a></li>
+            <!--
+            <li class="otherFooter">Location</li>
+            <li class="otherFooter">Contact</li>
+-->
+        </ul>
+        </li>
+        <li>
+        <ul class="footerGroup">
+            <li class="firstFooter"><a href="./menu.html">Our Menu</a></li>
+            <!--
+            <li class="otherFooter">Pizza</li>
+            <li class="otherFooter">Sandwiches</li>
+            <li class="otherFooter">Pasta</li>
+            <li class="otherFooter">Salads</li>
+-->
+        </ul>
+        </li>
+        <!--
+        <li>
+            <ul class="followButtons">
+                <li><img src="./img/fb.png"></li>
+                <li><img src="./img/twitter.png"></li>
+                <li><img src="./img/instagram.png"></li>
+            </ul>
+        </li>
+-->
+    </ul>
+
+</div>
+<script src="js/bundle.js"></script>
+</body>
+</html>

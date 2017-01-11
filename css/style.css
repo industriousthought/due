@@ -1,0 +1,305 @@
+a, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family:"Droid Sans",sans-serif;
+    background-image: url("../img/PolarGranite.jpg");
+}
+
+ul {
+    list-style: none;
+}
+
+#wrapper {
+    opacity: 0;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+}
+
+#loading {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#splash {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#splashPizza {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    webkit-transform: translate3d(0, 0, 0);
+}
+
+#freeDelivery {
+    position: absolute;
+    color: yellow;
+    width: 100%;
+    -webkit-text-stroke: 1px black;
+    font-size: 40px;
+    text-align: center;
+    webkit-transform: translate3d(0, 0, 0);
+}
+
+#splashBG {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    webkit-transform: translate3d(0, 0, 0);
+}
+
+#topLogo {
+    width: 80%;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    margin-left: -40%;
+    z-index: 2;
+    webkit-transform: translate3d(0, 0, 0);
+}
+
+#menuBar {
+    width: 100%;
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-image: url("../img/bricks-min.jpg");
+    z-index: 5;
+    left: 0px;
+    webkit-transform: translate3d(0, 0, 0);
+}
+
+#menuBar > li {
+    margin: auto;
+    display: inline-block;
+    width: 14%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border: 0px;
+    padding: 0px;
+    webkit-transform: translate3d(0, 0, 0);
+}
+
+#menuBar > #callNow {
+    width: 40%;
+    font-size: 40px;
+    webkit-transform: translate3d(0, 0, 0);
+}
+
+#brickWall {
+    z-index: 0;
+    height: 1140px;
+    width: 100%;
+    position: fixed;
+    background-image: url("../img/bricks-min.jpg");
+    webkit-transform: translate3d(0, 0, 0);
+}
+
+#menu {
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    background-image: url("../img/PolarGranite.jpg");
+    left: 0px;
+    webkit-transform: translate3d(0, 0, 0);
+}
+
+h1 {
+    margin-bottom: 5px;
+    color: yellow;
+    -webkit-text-stroke: 1px black;
+    font-size: 40px;
+}
+
+h2 {
+    margin-bottom: 0px;
+    margin-top: 4px;
+
+}
+
+.itemDescription {
+    width: 50%;
+    font-style: italic;
+}
+
+.prices > li {
+    width: 15%;
+    float: right;
+    text-align: center;
+    margin-top: 4px;
+    font-size: 21px;
+}
+
+#sections > li {
+
+}
+
+#sections {
+    padding: 10%;
+}
+
+.menuItems {
+    padding: 0px;
+}
+
+.sizes {
+    font-weight: bold;
+}
+
+#address {
+    width: 100%;
+}
+
+#address > h1 {
+}
+
+#address >  a {
+    color: black;
+}
+
+#address > h2 {
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+
+@media (max-width: 942px) {
+
+    #map {
+        width: 300px;
+
+    }
+}
+
+@media (max-width: 842px) {
+
+    #address > h1 {
+        position: static;
+    }
+
+    #address > h2 {
+        position: static;
+        margin-top: 10px;
+    }
+
+    #map {
+        float: none;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+}
+
+@media (max-width: 742px) {
+
+    #menuBar > li {
+        font-size: 20px;
+    }
+
+    #menuBar > #callNow {
+        font-size: 25px;
+    }
+
+    #sections {
+        padding: 5%;
+    }
+
+    .prices > li {
+        font-size: 19px;
+    }
+
+}
+
+@media (max-width: 642px) {
+
+    #menuBar > li {
+        font-size: 20px;
+    }
+
+    #menuBar > #callNow {
+        font-size: 25px;
+    }
+
+    #sections {
+        padding: 5%;
+    }
+
+    .prices > li {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width: 502px) {
+
+    #menuBar > li {
+        font-size: 20px;
+    }
+
+    #menuBar > #callNow {
+        font-size: 25px;
+    }
+
+    #sections {
+        padding: 5%;
+    }
+
+    .prices > li {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 402px) {
+
+    #menuBar > li {
+        width: 13%;
+        font-size: 15px;
+    }
+
+    #menuBar > #callNow {
+        font-size: 18px;
+    }
+
+    #sections {
+        padding: 0px;
+    }
+
+    .prices > li {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .sizes {
+        font-weight: normal;
+    }
+
+}
+
